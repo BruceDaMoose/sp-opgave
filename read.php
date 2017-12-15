@@ -59,7 +59,7 @@
         
             if ($result->num_rows > 0) {
                 while($row = $result->fetch_assoc()) {
-                    echo $row["aprt_adress"]." ".$row["aprt_size"]. "<br>";  
+                    echo "ADRESS: ".$row["aprt_adress"]." -- SIZE IN SQUARE METERS: ".$row["aprt_size"]. "<br>";  
                 }    
             } else {
                 echo "No apartments were found";
