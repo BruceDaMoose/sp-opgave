@@ -38,6 +38,15 @@
             // PHP slut tag kan undlades, hvis filen indeholder "rent" PHP
         ?>
         
+        <nav>
+            <ul>
+                <li><a href="create.php">Create new apartment</a></li>
+                <li><a href="read.php">Read from the database</a></li>
+                <li><a href="update.php">Update records</a></li>
+                <li><a href="delete.php">Delete records</a></li>
+            </ul>
+        </nav>
+        
         <h1>Delete Apartment Record</h1>
         <fieldset>
         <legend>Deletion Form</legend>
